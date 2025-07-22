@@ -1,0 +1,42 @@
+# Archivos de compilación y salida
+/bin/          # Directorio de clases compiladas
+*.class        # Archivos de clase Java
+*.jar          # Archivos JAR (si no son dependencias manejadas por un gestor)
+*.war
+*.ear
+*.zip          # Archivos zip (comúnmente para descargas o bundles, no para el repo)
+*.tar
+*.gz
+*.rar
+
+# Archivos de log
+*.log          # Archivos de log del juego
+
+# Directorios de IDEs (ej. IntelliJ IDEA, Eclipse, VS Code)
+.idea/         # Directorio de configuración de IntelliJ IDEA
+*.iml          # Archivos de módulos de IntelliJ IDEA
+.classpath     # Archivo de classpath de Eclipse
+.project       # Archivo de proyecto de Eclipse
+.settings/     # Directorio de settings de Eclipse
+.vscode/       # Directorio de configuración de VS Code
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema operativo
+.DS_Store      # Archivos de macOS
+Thumbs.db      # Archivos de Windows
+ehthumbs.db
+.directory
+
+# Directorios y archivos de builds (ej. Maven, Gradle si los usaras)
+/target/       # Directorio de salida de Maven
+/build/        # Directorio de salida de Gradle
+*.bak          # Archivos de backup
+*.swp          # Archivos de swap de Vim
+
+# Posibles ubicaciones de JDK/JRE que podrías haber descargado accidentalmente
+# Si descargaste una JDK o JRE dentro de tu proyecto, ignóralos explícitamente.
+# Asegúrate de que los nombres de las carpetas coincidan con lo que descargaste.
+jdk/
+jre/
+jvm/
