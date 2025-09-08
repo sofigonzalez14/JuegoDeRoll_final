@@ -18,6 +18,17 @@ public class GestorPersonajes {
         this.apodosUsados = new HashSet<>();
     }
 
+    public List<Personaje> getPersonajes1() {
+        return personajes1;
+    }
+    public List<Personaje> getPersonajes2() {
+        return personajes2;
+    }
+
+    public void limpiarEquipos() {
+        personajes1.clear();
+        personajes2.clear();
+    }
     public void generarPersonajeAleatorio() {
         System.out.println("Generando 6 personajes aleatorios...");
 

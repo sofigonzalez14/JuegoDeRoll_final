@@ -21,4 +21,10 @@ public class Menu {
     return scanner.nextInt();
     
  }
+    public boolean elegirModoVerbose() {
+        scanner.nextLine(); // limpiar buffer
+        System.out.print("¿Querés ver el combate en modo DETALLADO? (S/N): ");
+        String r = scanner.nextLine().trim().toUpperCase();
+        return r.startsWith("S");
+    }
 }
