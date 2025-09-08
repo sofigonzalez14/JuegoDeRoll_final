@@ -44,7 +44,7 @@ public class Juego{
                     jugando = false;
                     break;
                 default: 
-                    System.out.println("Opcion no valida, intente nuevamente.");
+                    main.Instrucciones.mostrarInstrucciones();
 
             }
         }
