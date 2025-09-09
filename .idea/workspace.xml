@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8dbb92c-e6a4-4767-9dd1-08e5c25f9850" name="Changes" comment="agregamos el combate, corregimos errores y añadimos los logs">
+    <list default="true" id="f8dbb92c-e6a4-4767-9dd1-08e5c25f9850" name="Changes" comment="agregue instrucciones al juego">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Juego.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Juego.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Juego.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +93,20 @@
       <option name="project" value="LOCAL" />
       <updated>1757357164570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="agregue instrucciones al juego">
+      <option name="closed" value="true" />
+      <created>1757358737144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757358737144</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="agregamos el combate, corregimos errores y añadimos los logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregamos el combate, corregimos errores y añadimos los logs" />
+    <MESSAGE value="agregue instrucciones al juego" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregue instrucciones al juego" />
   </component>
 </project>
