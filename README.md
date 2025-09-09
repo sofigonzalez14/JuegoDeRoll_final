@@ -23,7 +23,7 @@ El objetivo es crear personajes, enfrentarlos en combates y registrar el histori
 ---
 
 ## ⚔️ Instrucciones del juego
-1. Ejecutar en consola ** ./ejecutar.bat ** .
+1. Ejecutar en consola './ejecutar.bat'.
 2. Elegir una opción del menú:
    - `1` → Crear personajes y comenzar un combate.
    - `2` → Leer logs guardados.
