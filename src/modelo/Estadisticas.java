@@ -17,27 +17,38 @@ public class Estadisticas {
 
     // Getters
     public int getSalud() { 
-        return salud; }
+        return salud;
+    }
     public int getFuerza() { 
-        return fuerza; }
+        return fuerza;
+    }
     public int getDestreza() { 
-        return destreza; }
+        return destreza;
+    }
     public int getArmadura() { 
-        return armadura; }
+        return armadura;
+    }
     public int getVelocidad() { 
-        return velocidad; }
+        return velocidad;
+    }
 
     // Setters (con parámetros)
     public void setSalud(int salud) { 
-        this.salud = salud; }
+        this.salud = salud;
+    }
     public void setFuerza(int fuerza) { 
-        this.fuerza = fuerza; }
+        this.fuerza = fuerza;
+    }
     public void setDestreza(int destreza) { 
-        this.destreza = destreza; }
+        this.destreza = destreza;
+
+    }
     public void setArmadura(int armadura) { 
-        this.armadura = armadura; }
+        this.armadura = armadura;
+    }
     public void setVelocidad(int velocidad) { 
-        this.velocidad = velocidad; }
+        this.velocidad = velocidad;
+    }
         
      @Override
     public String toString() {

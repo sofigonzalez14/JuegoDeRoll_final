@@ -9,6 +9,7 @@ public enum Apodos {
     private final String[] apodos;
 
     Apodos(String... apodos) {
+
         this.apodos = apodos;
     }
     

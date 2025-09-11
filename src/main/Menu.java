@@ -5,7 +5,8 @@ public class Menu {
  private Scanner scanner;
 
  public Menu (){
-    this.scanner = new Scanner (System.in);
+
+     this.scanner = new Scanner (System.in);
  }
 
  public int MenuYOpciones (){

@@ -7,6 +7,7 @@ public enum Nombres {
 
     private final String[] nombres;
     Nombres(String... nombres){
+
         this.nombres = nombres;
     }
     public String getNombreAleatorio(){

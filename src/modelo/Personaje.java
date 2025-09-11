@@ -19,6 +19,7 @@ public class Personaje {
     // Getters
     public String getNombre() {
         return nombre;
+
     }
 
     public String getRaza() {
